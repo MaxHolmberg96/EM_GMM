@@ -2,4 +2,4 @@
 ##### Theory from: Pattern recognition and machine learning  Christopher M. Bishop
 
 #### Implemented on dummy dataset, see notebook.
-![Alt Text](gmm_em.gif)
+![Alt Text](em.gif)
