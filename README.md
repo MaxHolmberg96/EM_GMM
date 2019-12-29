@@ -1,4 +1,6 @@
 # EM_GMM
-EM for Gaussian Mixture Models (GMM)
+##### Expectation-Maximization (EM) algorithm.for Gaussian Mixture Models (GMM) 
+##### Theory from: Pattern recognition and machine learning  Christopher M. Bishop
 
+#### Implemented on dummy dataset, see notebook.
 ![Alt Text](gmm_em.gif)
