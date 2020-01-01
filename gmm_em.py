@@ -1,11 +1,12 @@
 def log_likelihood(N, K, mus, covs, z, X):
     from scipy.stats import multivariate_normal
+    import numpy as np
     outer_sum = 0
     for n in range(N):    
         inner_sum = 0
         for k in range(K):
             inner_sum += z[k] * multivariate_normal.pdf(X[n], mus[k], covs[k])
-        outer_sum += inner_sum
+        outer_sum += np.log(inner_sum)
     return outer_sum
 
 def e_step(N, K, mus, covs, z, X):
